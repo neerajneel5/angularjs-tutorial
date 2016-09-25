@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial App</title>
+</head>
+<body>
+<div ng-view></div>
+<script type="text/javascript" src="lib/angular1.5.8.js"></script>
+<script type="text/javascript" src="lib/angular-route.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="Home/homeController.js"></script>
+
+<script>
+	
+angular.element(document).ready(function(){
+	angular.bootstrap(document, ['tutorial-app'])
+})
+</script>
+
+</body>
+</html>
